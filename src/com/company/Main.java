@@ -12,6 +12,13 @@ public class Main {
 
     private static String cat(int start, int end)
     {
-        //Code goes here
+        String c = "";
+        StringBuffer a = new StringBuffer();
+        for(int i=start;i<end;i++)
+        {
+            c+=(char)i;
+            a.append((char)i);
+        }
+        return a.toString();
     }
 }
